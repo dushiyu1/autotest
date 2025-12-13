@@ -8,7 +8,7 @@ from requests import request
 class Test_02():
     def test_002(self):
         with allure.step("请求"):
-            print("aaaa")
+            print("aaasdsada")
 
         with allure.step("新增"):
             url = "http://localhost:8000/api/submit"
